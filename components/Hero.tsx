@@ -20,7 +20,7 @@ const Hero = (props: Props) => {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircle />
       <img
-        src="/images/profile.webp"
+        src="/images/profile3.png"
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         alt="Wil's picture"
       />
@@ -39,10 +39,10 @@ const Hero = (props: Props) => {
           <Link href="#experience">
             <button className="heroButton">Experience</button>
           </Link>
-          <Link href="skills">
+          <Link href="#skills">
             <button className="heroButton">Skills</button>
           </Link>
-          <Link href="projects">
+          <Link href="#projects">
             <button className="heroButton">Projects</button>
           </Link>
         </div>
