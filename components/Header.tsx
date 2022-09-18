@@ -15,17 +15,17 @@ export const Header = (props: Props) => {
       >
         <SocialIcon
           url="https://github.com/Wlloa"
-          fgColor="black"
+          fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://github.com/Wlloa"
-          fgColor="black"
+          fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://github.com/Wlloa"
-          fgColor="black"
+          fgColor="gray"
           bgColor="transparent"
         />
       </motion.div>
