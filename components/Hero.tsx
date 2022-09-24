@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { Cursor, Typewriter, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircle from "./BackgroundCircle";
+const { motion } = require("framer-motion");
 
 type Props = {};
 
@@ -19,7 +20,10 @@ const Hero = (props: Props) => {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircle />
-      <img
+      <motion.img
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1.5 }}
+        transition={{ duration: 1 }}
         src="/images/profile3.png"
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         alt="Wil's picture"
