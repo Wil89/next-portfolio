@@ -23,7 +23,7 @@ const Projects = (props: Props) => {
       >
         {/* projects */}
         {projects.map((project, i) => (
-          <div
+          <div key={i}
             className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5
           items-center justify-center p-20 md:p-44 h-screen"
           >
@@ -42,13 +42,13 @@ const Projects = (props: Props) => {
                 Fullstack dev
               </h4>
               <p className="text-lg text-center md:text-left">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum."
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
           </div>
